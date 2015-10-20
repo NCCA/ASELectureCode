@@ -8,7 +8,7 @@ int main()
 	char c;
 	float f;
 	// our void pointer
-	void* ptrMorph;
+	void  *ptrMorph;
 
 	// point our pointer to i
 	ptrMorph = &i;
@@ -24,11 +24,8 @@ int main()
 	*((float *)ptrMorph)= 25.45f;
 
 	printf("i=%d c=%c f=%f\n",i,c,f);
-	
-	int* p=&i;
-
 	for(int i=0; i<10; ++i)
-		printf("%p \n",p++);
+		printf("%p \n",ptrMorph++)
 
 	return EXIT_SUCCESS;
 
