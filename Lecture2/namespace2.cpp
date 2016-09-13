@@ -25,8 +25,6 @@ using namespace foo2;
 
 int  main()
 {
-
   foo();
 	foo();
-
 }
