@@ -11,6 +11,6 @@ int main()
 	Byte a='c';
 	Word i=10;
 	Real x=2.6;
-	std::cout<<a<<" "<<i<<" "<<x<<"\n";
-
+	std::cout<<a<<' '<<i<<' '<<x<<'\n';
+	return EXIT_SUCCESS;
 }
