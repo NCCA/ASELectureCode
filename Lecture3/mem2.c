@@ -4,9 +4,7 @@
 int main()
 {
 	char *mem;
-	mem=malloc(18446347440715);
-	for(int i=0; i<3; ++i)
-		sleep(2);
+	mem=malloc(1844634744071325);
 	free(mem);
 	return EXIT_SUCCESS;
 }
