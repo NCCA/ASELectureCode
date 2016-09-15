@@ -22,9 +22,8 @@
     Colour4i c;
     void debug()
     {
-    std::cout<<"["<<p.x<<","<<p.y<<"] ";
-    std::cout<<"("<<c.r<<","<<c.g<<","<<c.b<<","<<c.a<<")\n";
-
+      std::cout<<'['<<p.x<<','<<p.y<< "] ";
+      std::cout<<'('<<c.r<<','<<c.g<<','<<c.b<<','<<c.a<<")\n";
     }
   }ColourVert;
 
@@ -37,4 +36,5 @@ int main()
 
 	c.debug();
   d.debug();
+  return EXIT_SUCCESS;
 }

@@ -33,4 +33,5 @@ int main()
 {
 	ColourVert c={{23,10},{255,0,0,0}};
 	debug(c);
+  return EXIT_SUCCESS;
 }

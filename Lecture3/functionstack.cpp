@@ -14,12 +14,6 @@ int main()
 	foo();
 }
 
-
-
-
-
-
-
 void bar(int a)
 {	
 	std::cout<<"in bar trace()\n";
@@ -42,7 +36,7 @@ void trace()
 	char** strs = backtrace_symbols(callstack, frames);
 	for (int i = 0; i < frames; ++i) 
 	{
-	   std::cout<<strs[i]<<"\n";
+	   std::cout<<strs[i]<<'\n';
 	}
 	free(strs);
 }
