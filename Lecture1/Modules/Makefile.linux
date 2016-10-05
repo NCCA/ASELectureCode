@@ -6,7 +6,7 @@ MultiFile : $(OBJECTS)
 	clang++  $(OBJECTS) -o MultiFile
 
 main.o : main.cpp
-	clang++ -c $(CFLAGS) main.cpp
+    clang++ -c $(CFLAGS) main.cpp
 
 external.o : external.cpp
 	clang++ -c $(CFLAGS) external.cpp

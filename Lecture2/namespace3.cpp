@@ -18,8 +18,12 @@ void bar()
 
 int main()
 {
-	cout<<"in main\n";
+	{
+		using namespace  std;
+		
+		cout<<"in main\n";
+	}
 	foo();
 	bar();
-
+	cout<<"end\n";
 }
