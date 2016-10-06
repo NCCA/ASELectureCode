@@ -14,10 +14,10 @@ int main()
 	// loop and print out the values
 	for(i=0; i<5; ++i)
 	{
-		std::cout<<vowels[i]<<" ";
+		std::cout<<vowels[i]<< ' ' ;
 	}
 	// newline
-	std::cout<<"\n";
+	std::cout<<'\n';
 
 	// as we don't know how big the primes array is we need
 	// to figure it out, sizeof will return how big the allocated
@@ -29,9 +29,9 @@ int main()
 	// loop and print
 	for(i=0; i<sizeOfArray; ++i)
 	{
-		std::cout<<primesLT100[i]<<" ";
+		std::cout<<primesLT100[i]<<' ';
 	}
-	std::cout<<"\n";
+	std::cout<<'\n';
 	return EXIT_SUCCESS;
 }
 
