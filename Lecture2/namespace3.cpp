@@ -18,7 +18,9 @@ void bar()
 
 int main()
 {
+	{	
 	cout<<"in main\n";
+	}
 	foo();
 	bar();
 

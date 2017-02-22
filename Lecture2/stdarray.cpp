@@ -4,7 +4,7 @@
 
 int main()
 {
-	std::array<char,5> vowels={'a','e','i','o','u'};
+	std::array<char,5> vowels={{'a','e','i','o','u'}};
 	for(int i=0; i<vowels.size(); ++i)
 	{
 		std::cout<<vowels[i]<<' ';

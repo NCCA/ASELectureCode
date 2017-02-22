@@ -24,7 +24,7 @@ int main()
 	// space is, however it is in bytes and an int takes up
 	// sizeof(int) (usually 4) bytes so we need to div by this
 	std::cout<<sizeof(primesLT100);
-	int sizeOfArray=sizeof(primesLT100)/sizeof(int);
+	int sizeOfArray=sizeof(primesLT100)/sizeof(primesLT100[0]);
 	std::cout<<" size of array "<<sizeOfArray<<"\n";
 	// loop and print
 	for(i=0; i<sizeOfArray; ++i)

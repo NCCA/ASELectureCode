@@ -25,6 +25,8 @@ namespace foo1
   {
     std::cout<<"bar\n";
   }
+
+	
 }
 
 
@@ -33,6 +35,6 @@ int  main()
 
 	foo1::foo();
 	foo2::foo();
- foo1::bar();
+	foo1::bar();
 
 }

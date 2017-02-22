@@ -1,5 +1,5 @@
-#ifndef COLOUR_H__
-#define COLOUR_H__
+#ifndef COLOUR_H_
+#define COLOUR_H_
 #include <string>
 class Colour
 {

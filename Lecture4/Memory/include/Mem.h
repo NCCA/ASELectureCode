@@ -1,5 +1,5 @@
-#ifndef MEM_H__
-#define MEM_H__
+#ifndef MEM_H_
+#define MEM_H_
 
 /// @brief a class to allocate dynamic integers
 /// demonstrates the use of the destructor
