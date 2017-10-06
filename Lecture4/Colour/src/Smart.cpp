@@ -6,13 +6,11 @@
 int main()
 {
 
-std::unique_ptr<Colour> current;
+std::unique_ptr<Colour> current(new Colour(1,0,0));
 //Colour red(1,0,0);
 // red.Print();
-current.reset( new Colour(1,0,0));
 current->setName("red");
 current->print();
-
 current.reset(new Colour(1,1,1));
 current->setName("white");
 current->print();

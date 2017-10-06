@@ -1,5 +1,5 @@
-#ifndef EXTERNAL_H__
-#define EXTERNAL_H__
+#ifndef EXTERNAL_H_
+#define EXTERNAL_H_
 
 int foo(int i);
 int foo2(int i);

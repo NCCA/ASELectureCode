@@ -11,7 +11,7 @@ class Mem
     Mem(int _size );
     /// @brief copy ctor explicitly copies the data
 		/// @param [in] _m the Mem object to copy
-		Mem( const Mem &_m );
+    Mem( const Mem &_m );
     /// @brief dtor will deallocate m_mem if allocated
 		~Mem();
     /// @param method to print out the memory
