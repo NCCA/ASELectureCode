@@ -6,9 +6,10 @@ int main()
 	printf("sizeof(char)= %ld \n",sizeof(char));
 	printf("sizeof(short int)= %ld \n",sizeof(short int));
 	printf("sizeof(int)= %ld \n",sizeof(int));
+	printf("sizeof(size_t)= %ld \n",sizeof(size_t));
 	printf("sizeof(long int)= %ld \n",sizeof(long int));
-  printf("sizeof(float)= %ld \n",sizeof(float));
-  printf("sizeof(double)= %ld \n",sizeof(double));
+	printf("sizeof(float)= %ld \n",sizeof(float));
+	printf("sizeof(double)= %ld \n",sizeof(double));
 
 	printf("unsigned versions\n");
 

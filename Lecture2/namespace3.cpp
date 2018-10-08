@@ -25,5 +25,5 @@ int main()
 	}
 	foo();
 	bar();
-	cout<<"end\n";
+	std::cout<<"end\n";
 }
