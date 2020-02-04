@@ -1,30 +1,30 @@
 #include <iostream>
 #include <cstdlib>
 
-namespace foo1
+namespace graphics
 {
-	void foo()
+	void print()
 	{
-		std::cout<<"foo1::foo\n";
+		std::cout<<"graphics::print\n";
 	}
 
 };
 
-namespace foo2
+namespace console
 {
-	void foo()
+	void print()
 	{
-		std::cout<<"foo2::foo\n";
+		std::cout<<"console::print\n";
 	}
 
 };
 
-using namespace foo1;
-using namespace foo2;
+using namespace graphics;
+using namespace console;
 
 
 int  main()
 {
-  foo();
-	foo();
+  print();
+	print();
 }

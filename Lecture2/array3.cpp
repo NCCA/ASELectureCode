@@ -17,9 +17,9 @@ int main()
   {
   	for(x=0; x<3; ++x)
   	{
-  		std::cout<<XO[y][x]<<" ";
+  		std::cout<<XO[y][x]<<' ';
   	}
-  std::cout<<"\n";
+	  std::cout<<'\n';
   }
 
 	return EXIT_SUCCESS;

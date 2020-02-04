@@ -3,17 +3,17 @@
 
 
 
-void foo()
+void func1()
 {
 	using std::cout;
 	using std::endl;	
-	cout<<"foo "<<endl;
+	cout<<"func1 "<<endl;
 }
 
-void bar()
+void func2()
 {
 	using namespace std;
-	cout<<"bar"<<endl;
+	cout<<"func2"<<endl;
 }
 
 int main()
@@ -23,7 +23,7 @@ int main()
 		
 		cout<<"in main\n";
 	}
-	foo();
-	bar();
+	func1();
+	func2();
 	std::cout<<"end\n";
 }
