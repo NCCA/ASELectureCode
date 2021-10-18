@@ -14,6 +14,6 @@ class Point
     Point(const Point &)=default;
     Point & operator=(const Point &)=default;
     Point(Point &&)=default;
-    Point & operator=(const Point &&)=default;
+    Point & operator=(Point &&)=default;
     
 };

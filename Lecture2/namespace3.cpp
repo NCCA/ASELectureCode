@@ -19,6 +19,7 @@ void bar()
 int main()
 {
 	{	
+	using namespace std;
 	cout<<"in main\n";
 	}
 	foo();
