@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(Mem VERSION 1.0 LANGUAGES CXX )
+project(MemBuild VERSION 1.0 LANGUAGES CXX )
 
 
 set(CMAKE_CXX_STANDARD 17)
