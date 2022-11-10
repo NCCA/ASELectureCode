@@ -4,19 +4,19 @@
 namespace AReallyLongNamespaceThatIdontWantToType
 {
 
-	void foo()
+	void func1()
 	{
 		using std::cout;
 		using std::endl;
 
-		cout<<"foo "<<endl;
+		cout<<"func1 "<<endl;
 	}
 }
 
 int main()
 {
-	namespace foo=AReallyLongNamespaceThatIdontWantToType;
-	foo::foo();
+	namespace shrt=AReallyLongNamespaceThatIdontWantToType;
+	shrt::func1();
 
 }
 

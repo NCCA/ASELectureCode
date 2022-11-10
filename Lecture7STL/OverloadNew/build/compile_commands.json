@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Volumes/teaching/Code/STLIntro/OverloadNew/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -Wall -Wextra -pedantic -std=gnu++17 -o CMakeFiles/OverloadNew.dir/new.cpp.o -c /Volumes/teaching/Code/STLIntro/OverloadNew/new.cpp",
+  "file": "/Volumes/teaching/Code/STLIntro/OverloadNew/new.cpp"
+}
+]

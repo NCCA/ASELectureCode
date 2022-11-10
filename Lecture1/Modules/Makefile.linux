@@ -1,6 +1,6 @@
-CFLAGS+= -Wall -g -fdiagnostics-fixit-info
+CFLAGS= -Wall -g -fdiagnostics-fixit-info
 
-OBJECTS  :=main.o external.o foo2.o
+OBJECTS=main.o external.o foo2.o
 
 MultiFile : $(OBJECTS)
 	clang++  $(OBJECTS) -o MultiFile

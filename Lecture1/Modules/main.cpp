@@ -5,12 +5,12 @@
 
 int main()
 {
-	int data=5;
-	std::cout <<"Data "<<data<<std::endl;
-	data=foo(data);
-	std::cout << "after function "<<data<<std::endl;
-	data=foo2(data);
-	std::cout << "after function "<<data<<std::endl;
+  int data = 99;
+  std::cout << "Data " << data << '\n';
+  data = foo(data);
+  std::cout << "after function " << data << '\n';
+  data = foo2(data);
+  std::cout << "after function " << data << '\n';
 
-	return EXIT_SUCCESS;
+  return EXIT_SUCCESS;
 }

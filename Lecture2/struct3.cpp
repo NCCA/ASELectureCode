@@ -20,7 +20,7 @@
   {
     Point2i p;
     Colour4i c;
-    void debug()
+    void debug() const
     {
       std::cout<<'['<<p.x<<','<<p.y<< "] ";
       std::cout<<'('<<c.r<<','<<c.g<<','<<c.b<<','<<c.a<<")\n";

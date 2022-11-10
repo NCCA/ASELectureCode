@@ -1,29 +1,29 @@
 #include <iostream>
 #include <cstdlib>
 
-namespace foo1
+namespace graphics
 {
-	void foo()
+	void print()
 	{
-		std::cout<<"foo1::foo\n";
+		std::cout<<"graphics::print\n";
 	}
 
 }
 
-namespace foo2
+namespace console
 {
-	void foo()
+	void print()
 	{
-		std::cout<<"foo2::foo\n";
+		std::cout<<"console::print\n";
 	}
 
 }
 
-namespace foo1
+namespace graphics
 {
-  void bar()
+  void debug()
   {
-    std::cout<<"bar\n";
+    std::cout<<"graphics::debug\n";
   }
 
 	
@@ -32,9 +32,15 @@ namespace foo1
 
 int  main()
 {
+<<<<<<< HEAD
 
 	foo1::foo();
 	foo2::foo();
 	foo1::bar();
 
+=======
+	graphics::print();
+	console::print();
+	graphics::debug();
+>>>>>>> c087d0fd442f70f2ea9d80609c2a57aa7c8aa66d
 }
