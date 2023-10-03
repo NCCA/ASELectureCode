@@ -13,8 +13,8 @@ struct std::hash<std::pair<int, int>>
 {
   std::size_t operator()(std::pair<int, int> const &s) const noexcept
   {
-    std::size_t a = std::hash<int>{}(s.first);
-    std::size_t b = std::hash<int>{}(s.second);
+    std::size_t a = (s.first);
+    std::size_t b = (s.second);
     // https://en.wikipedia.org/wiki/Pairing_function#Cantor_pairing_function
     return (a + b) * (a + b + 1) / 2 + a;
   }
@@ -31,9 +31,9 @@ int main()
   std::cout << std::hash<std::pair<int, int>>{}(xy1) << '\n';
   std::cout << std::hash<std::pair<int, int>>{}(xy2) << '\n';
   std::vector<size_t> hashes;
-  for (int y = 0; y < 10; ++y)
+  for (int y = 0; y < 1000; ++y)
   {
-    for (int x = 0; x < 10; ++x)
+    for (int x = 0; x < 1000; ++x)
     {
       std::pair<int, int> xy(x, y);
       std::cout << "( " << x << ',' << y << ") ";
