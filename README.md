@@ -1,4 +1,4 @@
-#Animation Software Engineering
+# Animation Software Engineering
 
 This repository is used to contain code used in the ASE unit, it will be updated frequently with new code used in the lectures.
 
